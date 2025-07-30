@@ -4,7 +4,7 @@ steps:
   -'gcloud'
   - 'functions'
   - 'deploy'
-  - 'robo-noticias-scraping' #nomeda nossa Cloud Function 
+  - 'robo-de-noticias-IA' #nomeda nossa Cloud Function 
   - '--gen2' # Usa a 2 geração de Functions, mais moderna
   - '--region=southamerica-east1' # Região de são Paulo
   - '--runtime=python311' # Versão do Python
