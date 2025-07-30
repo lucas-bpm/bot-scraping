@@ -12,4 +12,4 @@ steps:
   - '--entry-point=executar_robo' # Nome da função em main.py
   - '--trigger-topic=run-daily-job' # Será acionada por este tópico Pub/Sub
   # Permite que a função acesse o Secret Manager
-  - '--service-account=SERVICE_ACCOUNT_EMAIL'
+  - '--service-account=499414425820-compute@developer.gserviceaccount.com'
