@@ -1,7 +1,7 @@
 steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
   args:
-  -'gcloud'
+  - 'gcloud'
   - 'functions'
   - 'deploy'
   - 'robo-de-noticias-IA' #nomeda nossa Cloud Function 
